@@ -1,0 +1,6 @@
+*
+!files/
+!gedcom/
+!photos/
+!profile-photos/
+!.gitignore

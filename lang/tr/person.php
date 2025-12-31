@@ -1,0 +1,173 @@
+<?php
+
+declare(strict_types=1);
+
+return [
+    // Labels
+    'biological'      => 'biyolojik',
+    'contact'         => 'İletişim',
+    'person'          => 'Kişi',
+    'person_metadata' => 'Kişi meta verisi',
+    'people'          => 'Kişiler',
+
+    'family'  => 'Aile',
+    'profile' => 'Profil',
+
+    'partner'  => 'Eş',
+    'partners' => 'Eşler',
+
+    'children'      => 'Çocuklar',
+    'parents'       => 'Ebeveynler',
+    'grandchildren' => 'Torunlar',
+    'siblings'      => 'Kardeşler',
+    'ancestors'     => 'Atalar',
+    'descendants'   => 'Soyundan gelenler',
+    'birth'         => 'Doğum',
+    'dead'          => 'Ölü',
+    'death'         => 'Ölüm',
+    'deceased'      => 'Merhum',
+
+    'grandmother'   => 'Büyükanne',
+    'grandfather'   => 'Büyükbaba',
+    'nieces'        => 'Yeğenler (kız)',
+    'nephews'       => 'Yeğenler (erkek)',
+    'cousins'       => 'Kuzenler',
+    'uncles'        => 'Amcalar/Dayılar',
+    'aunts'         => 'Teyzeler/Halalar',
+    'relationships' => 'İlişkiler',
+    'age'           => 'Yaş',
+    'years'         => '[0,1] Yıl|[2,*] Yıl',
+
+    'source'           => 'Kaynak',
+    'source_hint'      => 'Yükleyeceğiniz dosyaların kaynağını belirtin',
+    'source_date'      => 'Tarih',
+    'source_date_hint' => 'Yükleyeceğiniz dosyaların kaynağının tarihini belirtin',
+
+    // Actions
+    'add_father'                     => 'Baba ekle',
+    'add_new_person_as_father'       => 'Yeni bir kişiyi baba olarak ekle',
+    'add_existing_person_as_father'  => 'Mevcut bir kişiyi baba olarak ekle',
+    'add_mother'                     => 'Anne ekle',
+    'add_new_person_as_mother'       => 'Yeni bir kişiyi anne olarak ekle',
+    'add_existing_person_as_mother'  => 'Mevcut bir kişiyi anne olarak ekle',
+    'add_child'                      => 'Çocuk ekle',
+    'add_new_person_as_child'        => 'Yeni bir kişiyi çocuk olarak ekle',
+    'add_existing_person_as_child'   => 'Mevcut bir kişiyi çocuk olarak ekle',
+    'add_person'                     => 'Kişi ekle',
+    'add_new_person_as_partner'      => 'Yeni bir kişiyi eş olarak ekle',
+    'add_existing_person_as_partner' => 'Mevcut bir kişiyi eş olarak ekle',
+    'add_person_in_team'             => 'Takıma kişi ekle: :team',
+    'add_photo'                      => 'Fotoğraf ekle',
+    'add_relationship'               => 'İlişki ekle',
+
+    'edit'              => 'Düzenle',
+    'edit_children'     => 'Çocukları düzenle',
+    'edit_contact'      => 'İletişimi düzenle',
+    'edit_death'        => 'Ölümü düzenle',
+    'edit_family'       => 'Aileyi düzenle',
+    'edit_files'        => 'Dosyaları düzenle',
+    'edit_person'       => 'Kişiyi düzenle',
+    'edit_profile'      => 'Profili düzenle',
+    'edit_relationship' => 'İlişkiyi düzenle',
+    'edit_events'       => 'Etkinlikleri düzenle',
+
+    'delete_child'        => 'Çocuğu bağlantıdan kaldır',
+    'delete_person'       => 'Kişiyi sil',
+    'delete_relationship' => 'İlişkiyi sil',
+
+    // Attributes
+    'id'          => 'ID',
+    'name'        => 'Ad',
+    'names'       => 'Adlar',
+    'firstname'   => 'Ad',
+    'surname'     => 'Soyad',
+    'birthname'   => 'Doğum adı',
+    'nickname'    => 'Takma ad',
+    'sex'         => 'Cinsiyet',
+    'gender'      => 'Cinsiyet kimliği',
+    'father'      => 'Baba',
+    'mother'      => 'Anne',
+    'parent'      => 'Ebeveyn',
+    'dob'         => 'Doğum tarihi',
+    'yob'         => 'Doğum yılı',
+    'pob'         => 'Doğum yeri',
+    'dod'         => 'Ölüm tarihi',
+    'yod'         => 'Ölüm yılı',
+    'pod'         => 'Ölüm yeri',
+    'summary'     => 'Özet',
+    'email'       => 'E-posta',
+    'password'    => 'Şifre',
+    'address'     => 'Adres',
+    'street'      => 'Sokak',
+    'number'      => 'Numara',
+    'postal_code' => 'Posta kodu',
+    'city'        => 'Şehir',
+    'province'    => 'İl',
+    'state'       => 'Eyalet',
+    'country'     => 'Ülke',
+    'phone'       => 'Telefon',
+
+    'cemetery'          => 'Mezarlık',
+    'cemetery_location' => 'Mezarlık Konumu',
+
+    // files
+    'files'            => 'Dosyalar',
+    'files_saved'      => '[0] Hiçbir dosya kaydedilmedi|[1] Dosya kaydedildi|[2,*] Dosyalar kaydedildi',
+    'file'             => 'Dosya',
+    'file_deleted'     => 'Dosya silindi',
+    'upload_files'     => 'Dosya yükle',
+    'upload_files_tip' => 'Yeni dosyalarınızı buraya sürükleyip bırakın ...',
+
+    'upload_accept_types' => 'İzin verilmiş: :types',
+    'upload_max_size'     => 'Maksimum boyut : :max KB',
+
+    // Photo
+    'avatar'                   => 'Avatar',
+    'edit_photos'              => 'Fotoğrafları düzenle',
+    'photo_delete_failed'      => 'Fotoğraf silinemedi',
+    'photo_deleted'            => 'Fotoğraf silindi',
+    'photo'                    => 'Fotoğraf',
+    'photos'                   => 'Fotoğraflar',
+    'photos_saved'             => '[0] Hiç fotoğraf kaydedilmedi|[1] Fotoğraf kaydedildi|[2,*] :count Fotoğraf kaydedildi',
+    'photos_save_failed'       => '(Bazı) fotoğraflar kaydedilemedi',
+    'photos_existing'          => 'Mevcut fotoğraflar',
+    'photo_set_primary'        => 'Birincil olarak ayarla',
+    'photo_set_primary_failed' => 'Birincil fotoğraf ayarlanamadı',
+    'photo_is_set_primary'     => 'Yeni fotoğraf birincil olarak ayarlandı',
+    'upload_photos'            => 'Fotoğrafları yükle',
+    'upload_photos_tip'        => 'Yeni fotoğraflarınızı buraya sürükleyip bırakın...',
+
+    // Messages
+    'yod_not_matching_dod' => 'Ölüm yılı, ölüm tarihiyle eşleşmelidir (:value).',
+    'yod_before_dob'       => 'Ölüm yılı, doğum tarihinden önce olamaz (:value).',
+    'yod_before_yob'       => 'Ölüm yılı, doğum yılından önce olamaz (:value).',
+
+    'dod_not_matching_yod' => 'Ölüm tarihi, ölüm yılıyla eşleşmelidir (:value).',
+    'dod_before_dob'       => 'Ölüm tarihi, doğum tarihinden önce olamaz (:value).',
+    'dod_before_yob'       => 'Ölüm tarihi, doğum yılından önce olamaz (:value).',
+
+    'yob_not_matching_dob' => 'Doğum yılı, doğum tarihiyle eşleşmelidir (:value).',
+    'yob_after_dod'        => 'Doğum yılı, ölüm tarihinden sonra olamaz (:value).',
+    'yob_after_yod'        => 'Doğum yılı, ölüm yılından sonra olamaz (:value).',
+
+    'dob_not_matching_yob' => 'Doğum tarihi, doğum yılıyla eşleşmelidir (:value).',
+    'dob_after_dod'        => 'Doğum tarihi, ölüm tarihinden sonra olamaz (:value).',
+    'dob_after_yod'        => 'Doğum tarihi, ölüm yılından sonra olamaz (:value).',
+
+    'not_found' => 'Kişi bulunamadı',
+    'use_tab'   => 'Sekme kullanın',
+
+    'existing_person_linked_as_father'  => 'Mevcut kişi baba olarak bağlandı.',
+    'new_person_linked_as_father'       => 'Yeni kişi baba olarak bağlandı.',
+    'existing_person_linked_as_mother'  => 'Mevcut kişi anne olarak bağlandı.',
+    'new_person_linked_as_mother'       => 'Yeni kişi anne olarak bağlandı.',
+    'existing_person_linked_as_child'   => 'Mevcut kişi çocuk olarak bağlandı.',
+    'new_person_linked_as_child'        => 'Yeni kişi çocuk olarak bağlandı.',
+    'existing_person_linked_as_partner' => 'Mevcut kişi eş olarak bağlandı.',
+    'new_person_linked_as_parther'      => 'Yeni kişi eş olarak bağlandı.',
+
+    'family_caution_1' => 'Baba ve Anne yalnızca biyolojik ebeveynler için kullanılmalı ve bu nedenle zıt cinsiyetlerde olmalıdır.',
+    'family_caution_2' => 'Ebeveynler biyolojik olabilir, ancak biyolojik olmayan (eşcinsel veya evlat edinen) ebeveynler de olabilir. Bu durumda Baba ve Anne alanlarını boş bırakın.',
+
+    'parents_id_exclusive' => 'Ebeveynler özel. Ebeveynleri ayarlarsanız, Baba veya Anneyi ayarlayamazsınız.',
+];
