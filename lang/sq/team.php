@@ -1,0 +1,102 @@
+<?php
+
+declare(strict_types=1);
+
+return [
+    'all_teams'     => 'Të gjitha ekipet',
+    'cancel'        => 'Anulo',
+    'couples'       => 'Çiftet',
+    'create'        => 'Krijo ekip',
+    'delete'        => 'Fshi ekipin',
+    'description'   => 'Përshkrimi',
+    'id'            => 'ID',
+    'manage'        => 'Menaxho ekipin',
+    'name'          => 'Emri',
+    'owner'         => 'Pronari',
+    'persons'       => 'Personat',
+    'settings'      => 'Cilësimet e ekipit',
+    'switch'        => 'Ndrysho ekipin',
+    'team'          => 'Ekipi',
+    'team_personal' => 'Ekipi personal',
+    'teams'         => 'Ekipet',
+    'users'         => 'Përdoruesit',
+
+    'team_overview'                   => 'Përmbledhja e ekipit',
+    'click_to_view_members'           => 'Klikoni për të parë të gjithë anëtarët e ekipit',
+    'click_to_view_persons'           => 'Klikoni për të parë të gjithë anëtarët e familjes',
+    'click_to_view_couples'           => 'Klikoni për të parë të gjitha marrëdhëniet',
+    'no_results_found'                => 'Nuk u gjetën rezultate',
+    'try_adjusting_your_search_terms' => 'Provoni të ndryshoni termat e kërkimit',
+    'showing'                         => 'Duke shfaqur',
+    'of'                              => 'nga',
+    'reset_filter'                    => 'Rivendos filtrin',
+    'filtered_by'                     => 'Filtruar sipas',
+
+    // Messages
+    'team_details'    => 'Detajet e ekipit',
+    'team_create_new' => 'Krijoni një ekip të ri për të bashkëpunuar me të tjerët.',
+
+    'team_name'               => 'Emri i ekipit',
+    'team_information'        => 'Emri i ekipit dhe informacioni i pronarit.',
+    'team_add_member'         => 'Shto anëtar ekipi',
+    'team_add_member_message' => 'Shtoni një anëtar të ri ekipi, duke i mundësuar atij të bashkëpunojë me ju.',
+    'team_provide_email'      => 'Ju lutemi jepni adresën e emailit të përdoruesit të ri që dëshironi të shtoni në këtë ekip.',
+    'team_provide_role'       => 'Pastaj zgjidhni rolin për përdoruesin e ri.',
+    'email'                   => 'Email',
+    'role'                    => 'Roli',
+
+    'team_pending'         => 'Ftesat e pritshme të ekipit',
+    'team_pending_message' => 'Këta persona janë ftuar në ekipin tuaj dhe u është dërguar një email ftese. Ata mund t\'i bashkohen ekipit duke pranuar ftesën me email.',
+
+    'change_role'          => 'Ndrysho rolin',
+    'team_members'         => 'Anëtarët e ekipit',
+    'team_members_message' => 'Të gjithë personat që janë pjesë e këtij ekipi.',
+    'manage_role'          => 'Menaxho rolin',
+    'leave'                => 'Largohu',
+    'leave_team'           => 'Largohu nga ekipi',
+    'leave_team_sure'      => 'Jeni të sigurt që doni të largoheni nga ky ekip?',
+    'remove'               => 'Hiq',
+    'remove_member'        => 'Hiq anëtarin e ekipit',
+    'remove_member_sure'   => 'Jeni të sigurt që doni të hiqni këtë person nga ekipi?',
+    'send_email'           => 'Dërgo email',
+
+    'user_not_found'       => 'Nuk mundëm të gjejmë një përdorues të regjistruar me këtë adresë emaili.',
+    'user_already_in_team' => 'Ky përdorues tashmë i përket ekipit.',
+    'user_already_invited' => 'Ky përdorues është ftuar tashmë në ekip.',
+    'user_not_leave'       => 'Nuk mund të largoheni nga një ekip që e keni krijuar.',
+
+    'delete_team_message' => 'Fshi përgjithmonë këtë ekip.',
+    'delete_team_text'    => 'Pasi ekipi të fshihet, të gjitha burimet dhe të dhënat e tij do të fshihen përgjithmonë. Para se të fshini këtë ekip, ju lutemi shkarkoni çdo të dhënë ose informacion rreth këtij ekipi që dëshironi të ruani.',
+    'delete_team_sure'    => 'Jeni të sigurt që doni të fshini këtë ekip? Pasi ekipi të fshihet, të gjitha burimet dhe të dhënat e tij do të fshihen përgjithmonë.',
+    'can_not_delete'      => 'Ky ekip nuk mund të fshihet sepse përmban të dhëna të vlefshme.',
+
+    'been_invited'               => 'Jeni ftuar të bashkoheni me ekipin :team!',
+    'no_account'                 => 'Nëse nuk keni llogari, mund të krijoni një duke klikuar butonin më poshtë. Pasi të krijoni një llogari, mund të klikoni butonin e pranimit të ftesës në këtë email për të pranuar ftesën e ekipit:',
+    'create_account'             => 'Krijo llogari',
+    'may_accept_already_account' => 'Nëse tashmë keni një llogari, mund të pranoni këtë ftesë duke klikuar butonin më poshtë:',
+    'may_accept'                 => 'Mund të pranoni këtë ftesë duke klikuar butonin më poshtë:',
+    'accept_invitation'          => 'Prano ftesën',
+    'discard'                    => 'Nëse nuk pritët të merrni një ftesë për këtë ekip, mund ta injoroni këtë email.',
+
+    'transfer'           => 'Transfero',
+    'transfer_ownership' => 'Transfero pronësinë',
+    'transfer_message'   => 'Transferoni pronësinë e këtij ekipi te një anëtar tjetër i ekipit.',
+    'select_new_owner'   => 'Zgjidhni një anëtar ekzistues të ekipit si pronarin e ri të ekipit.',
+    'new_owner'          => 'Pronari i ri',
+    'transferred_to'     => 'Pronësia u transferua te',
+    'can_not_transfer'   => 'Pronësia e ekipit mund të transferohet vetëm nëse ka anëtarë të tjerë ekipi përveç pronarit të ekipit.',
+
+    'transferred'       => 'Pronësia e ekipit u transferua',
+    'hello'             => 'Përshëndetje',
+    'you_are_new_owner' => 'Jeni bërë pronari i ri i ekipit: ',
+    'view_team'         => 'Shiko ekipin',
+    'thank_you'         => 'Faleminderit që jeni pjesë e platformës sonë!',
+
+    'member'     => 'Anëtari',
+    'membership' => 'Anëtarësia',
+
+    'personal_team_caution' => 'Kujdes',
+    'personal_team_avoid'   => 'Shmangni përdorimin e ekipit tuaj personal për krijimin e pemëve familjare, pasi pronësia e ekipeve personale nuk mund të transferohet te një anëtar tjetër.',
+    'personal_team_instead' => 'Në vend të kësaj, zgjidhni një ekip ku tashmë jeni pjesë ose krijoni një të ri posaçërisht për menaxhimin dhe ndarjen e pemëve familjare me të tjerët.',
+    'personal_team_action'  => 'Për të krijuar një ekip të ri ose për t\'u kaluar në një ekzistues, përdorni menunë zbritëse në këndin e sipërm djathtas.',
+];

@@ -1,0 +1,173 @@
+<?php
+
+declare(strict_types=1);
+
+return [
+    // Labels
+    'biological'      => 'biologiczny',
+    'contact'         => 'Kontakt',
+    'person'          => 'Osoba',
+    'person_metadata' => 'Metadane osoby',
+    'people'          => 'Osoby',
+
+    'family'  => 'Rodzina',
+    'profile' => 'Profil',
+
+    'partner'  => 'Partner',
+    'partners' => 'Partnerzy',
+
+    'children'      => 'Dzieci',
+    'parents'       => 'Rodzice',
+    'grandchildren' => 'Wnuki',
+    'siblings'      => 'Rodzeństwo',
+    'ancestors'     => 'Przodkowie',
+    'descendants'   => 'Potomkowie',
+    'birth'         => 'Narodziny',
+    'dead'          => 'Zmarły',
+    'death'         => 'Śmierć',
+    'deceased'      => 'Zmarły/a',
+
+    'grandmother'   => 'Babcia',
+    'grandfather'   => 'Dziadek',
+    'nieces'        => 'Siostrzenice',
+    'nephews'       => 'Siostrzeńcy',
+    'cousins'       => 'Kuzyni',
+    'uncles'        => 'Wujkowie',
+    'aunts'         => 'Ciotki',
+    'relationships' => 'Relacje',
+    'age'           => 'Wiek',
+    'years'         => '[0,1] Rok|[2,4] Lata|[5,*] Lat',
+
+    'source'           => 'Źródło',
+    'source_hint'      => 'Określ źródło plików, które przesyłasz',
+    'source_date'      => 'Data',
+    'source_date_hint' => 'Określ datę źródła plików, które przesyłasz',
+
+    // Actions
+    'add_father'                     => 'Dodaj ojca',
+    'add_new_person_as_father'       => 'Dodaj NOWĄ osobę jako ojca',
+    'add_existing_person_as_father'  => 'Dodaj ISTNIEJĄCĄ osobę jako ojca',
+    'add_mother'                     => 'Dodaj matkę',
+    'add_new_person_as_mother'       => 'Dodaj NOWĄ osobę jako matkę',
+    'add_existing_person_as_mother'  => 'Dodaj ISTNIEJĄCĄ osobę jako matkę',
+    'add_child'                      => 'Dodaj dziecko',
+    'add_new_person_as_child'        => 'Dodaj NOWĄ osobę jako dziecko',
+    'add_existing_person_as_child'   => 'Dodaj ISTNIEJĄCĄ osobę jako dziecko',
+    'add_person'                     => 'Dodaj osobę',
+    'add_new_person_as_partner'      => 'Dodaj NOWĄ osobę jako partnera',
+    'add_existing_person_as_partner' => 'Dodaj ISTNIEJĄCĄ osobę jako partnera',
+    'add_person_in_team'             => 'Dodaj osobę do zespołu: :team',
+    'add_photo'                      => 'Dodaj zdjęcie',
+    'add_relationship'               => 'Dodaj relację',
+
+    'edit'              => 'Edytuj',
+    'edit_children'     => 'Edytuj dzieci',
+    'edit_contact'      => 'Edytuj kontakt',
+    'edit_death'        => 'Edytuj śmierć',
+    'edit_family'       => 'Edytuj rodzinę',
+    'edit_files'        => 'Edytuj pliki',
+    'edit_person'       => 'Edytuj osobę',
+    'edit_profile'      => 'Edytuj profil',
+    'edit_relationship' => 'Edytuj relację',
+    'edit_events'       => 'Edytuj wydarzenia',
+
+    'delete_child'        => 'Rozłącz dziecko',
+    'delete_person'       => 'Usuń osobę',
+    'delete_relationship' => 'Usuń relację',
+
+    // Attributes
+    'id'          => 'ID',
+    'name'        => 'Nazwa',
+    'names'       => 'Nazwy',
+    'firstname'   => 'Imię',
+    'surname'     => 'Nazwisko',
+    'birthname'   => 'Nazwisko rodowe',
+    'nickname'    => 'Przezwisko',
+    'sex'         => 'Płeć',
+    'gender'      => 'Tożsamość płciowa',
+    'father'      => 'Ojciec',
+    'mother'      => 'Matka',
+    'parent'      => 'Rodzic',
+    'dob'         => 'Data urodzenia',
+    'yob'         => 'Rok urodzenia',
+    'pob'         => 'Miejsce urodzenia',
+    'dod'         => 'Data śmierci',
+    'yod'         => 'Rok śmierci',
+    'pod'         => 'Miejsce śmierci',
+    'summary'     => 'Podsumowanie',
+    'email'       => 'E-mail',
+    'password'    => 'Hasło',
+    'address'     => 'Adres',
+    'street'      => 'Ulica',
+    'number'      => 'Numer',
+    'postal_code' => 'Kod pocztowy',
+    'city'        => 'Miasto',
+    'province'    => 'Województwo',
+    'state'       => 'Stan',
+    'country'     => 'Kraj',
+    'phone'       => 'Telefon',
+
+    'cemetery'          => 'Cmentarz',
+    'cemetery_location' => 'Lokalizacja cmentarza',
+
+    // files
+    'files'            => 'Pliki',
+    'files_saved'      => '[0] Nie zapisano plików|[1] Plik zapisany|[2,4] Pliki zapisane|[5,*] Plików zapisanych',
+    'file'             => 'Plik',
+    'file_deleted'     => 'Plik usunięty',
+    'upload_files'     => 'Prześlij pliki',
+    'upload_files_tip' => 'Przeciągnij i upuść nowe pliki tutaj ...',
+
+    'upload_accept_types' => 'Dozwolone: :types',
+    'upload_max_size'     => 'Maksymalny rozmiar: :max KB',
+
+    // Photo
+    'avatar'                   => 'Awatar',
+    'edit_photos'              => 'Edytuj zdjęcia',
+    'photo_delete_failed'      => 'Nie udało się usunąć zdjęcia',
+    'photo_deleted'            => 'Zdjęcie usunięte',
+    'photo'                    => 'Zdjęcie',
+    'photos'                   => 'Zdjęcia',
+    'photos_saved'             => '[0] Nie zapisano zdjęć|[1] Zdjęcie zapisane|[2,4] Zdjęcia zapisane|[5,*] :count Zdjęć zapisanych',
+    'photos_save_failed'       => 'Nie udało się zapisać (niektórych) zdjęć',
+    'photos_existing'          => 'Istniejące zdjęcia',
+    'photo_set_primary'        => 'Ustaw jako główne',
+    'photo_set_primary_failed' => 'Nie udało się ustawić zdjęcia głównego',
+    'photo_is_set_primary'     => 'Nowe zdjęcie zostało ustawione jako główne',
+    'upload_photos'            => 'Prześlij zdjęcia',
+    'upload_photos_tip'        => 'Przeciągnij i upuść nowe zdjęcia tutaj ...',
+
+    // Messages
+    'yod_not_matching_dod' => 'Rok śmierci musi odpowiadać dacie śmierci (:value).',
+    'yod_before_dob'       => 'Rok śmierci nie może być przed datą urodzenia (:value).',
+    'yod_before_yob'       => 'Rok śmierci nie może być przed rokiem urodzenia (:value).',
+
+    'dod_not_matching_yod' => 'Data śmierci musi odpowiadać rokowi śmierci (:value).',
+    'dod_before_dob'       => 'Data śmierci nie może być przed datą urodzenia (:value).',
+    'dod_before_yob'       => 'Data śmierci nie może być przed rokiem urodzenia (:value).',
+
+    'yob_not_matching_dob' => 'Rok urodzenia musi odpowiadać dacie urodzenia (:value).',
+    'yob_after_dod'        => 'Rok urodzenia nie może być po dacie śmierci (:value).',
+    'yob_after_yod'        => 'Rok urodzenia nie może być po roku śmierci (:value).',
+
+    'dob_not_matching_yob' => 'Data urodzenia musi odpowiadać rokowi urodzenia (:value).',
+    'dob_after_dod'        => 'Data urodzenia nie może być po dacie śmierci (:value).',
+    'dob_after_yod'        => 'Data urodzenia nie może być po roku śmierci (:value).',
+
+    'not_found' => 'Nie znaleziono osoby',
+    'use_tab'   => 'Użyj karty',
+
+    'existing_person_linked_as_father'  => 'Istniejąca osoba połączona jako ojciec.',
+    'new_person_linked_as_father'       => 'Nowa osoba połączona jako ojciec.',
+    'existing_person_linked_as_mother'  => 'Istniejąca osoba połączona jako matka.',
+    'new_person_linked_as_mother'       => 'Nowa osoba połączona jako matka.',
+    'existing_person_linked_as_child'   => 'Istniejąca osoba połączona jako dziecko.',
+    'new_person_linked_as_child'        => 'Nowa osoba połączona jako dziecko.',
+    'existing_person_linked_as_partner' => 'Istniejąca osoba połączona jako partner.',
+    'new_person_linked_as_parther'      => 'Nowa osoba połączona jako partner.',
+
+    'family_caution_1' => 'Ojciec i Matka mogą być używani tylko dla biologicznych rodziców i dlatego muszą być przeciwnej płci.',
+    'family_caution_2' => 'Rodzice mogą być biologicznymi rodzicami, ale mogą być również używani dla niebio­logicznych rodziców (homoseksualnych lub adopcyjnych). W tym przypadku po prostu pozostaw Ojca i Matkę pustymi.',
+
+    'parents_id_exclusive' => 'Rodzice są wykluczający. Jeśli ustawisz Rodziców, nie możesz ustawić Ojca ani Matki.',
+];

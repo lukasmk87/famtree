@@ -91,7 +91,9 @@ return [
         'हिन्दी'           => 'hi',         // Hindi
         'Bahasa Indonesia' => 'id',         // Indonesian
         'Nederlands'       => 'nl',         // Dutch
+        'Polski'           => 'pl',         // Polish
         'Português'        => 'pt',         // Portuguese
+        'Shqip'            => 'sq',         // Albanian
         'Türkçe'           => 'tr',         // Turkish
         'Việt Nam'         => 'vi',         // Vietnamese
         '中文简体'         => 'zh_cn',      // Chinees

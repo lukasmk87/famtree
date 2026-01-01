@@ -17,7 +17,9 @@ final class Countries
         'hi' => 'hi',
         'id' => 'id',
         'nl' => 'nl',
+        'pl' => 'pl',
         'pt' => 'pt',
+        'sq' => 'sq',
         'tr' => 'tr',
         // 'vi'    => 'vi', // Vietnamese not available in the package
         'zh_cn' => 'zh',

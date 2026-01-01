@@ -1,0 +1,173 @@
+<?php
+
+declare(strict_types=1);
+
+return [
+    // Labels
+    'biological'      => 'biologjik',
+    'contact'         => 'Kontakti',
+    'person'          => 'Personi',
+    'person_metadata' => 'Metadatat e personit',
+    'people'          => 'Personat',
+
+    'family'  => 'Familja',
+    'profile' => 'Profili',
+
+    'partner'  => 'Partneri',
+    'partners' => 'Partnerët',
+
+    'children'      => 'Fëmijët',
+    'parents'       => 'Prindërit',
+    'grandchildren' => 'Nipërit/Mbesat',
+    'siblings'      => 'Vëllezërit/Motrat',
+    'ancestors'     => 'Paraardhësit',
+    'descendants'   => 'Pasardhësit',
+    'birth'         => 'Lindja',
+    'dead'          => 'I vdekur',
+    'death'         => 'Vdekja',
+    'deceased'      => 'I/E ndjerë',
+
+    'grandmother'   => 'Gjyshja',
+    'grandfather'   => 'Gjyshi',
+    'nieces'        => 'Mbesat',
+    'nephews'       => 'Nipërit',
+    'cousins'       => 'Kushërinjtë',
+    'uncles'        => 'Xhaxhallarët',
+    'aunts'         => 'Hallat/Tezet',
+    'relationships' => 'Marrëdhëniet',
+    'age'           => 'Mosha',
+    'years'         => '[0,1] Vit|[2,*] Vjet',
+
+    'source'           => 'Burimi',
+    'source_hint'      => 'Specifikoni burimin e skedarëve që do të ngarkoni',
+    'source_date'      => 'Data',
+    'source_date_hint' => 'Specifikoni datën e burimit të skedarëve që do të ngarkoni',
+
+    // Actions
+    'add_father'                     => 'Shto babain',
+    'add_new_person_as_father'       => 'Shto person TË RI si baba',
+    'add_existing_person_as_father'  => 'Shto person EKZISTUES si baba',
+    'add_mother'                     => 'Shto nënën',
+    'add_new_person_as_mother'       => 'Shto person TË RI si nënë',
+    'add_existing_person_as_mother'  => 'Shto person EKZISTUES si nënë',
+    'add_child'                      => 'Shto fëmijë',
+    'add_new_person_as_child'        => 'Shto person TË RI si fëmijë',
+    'add_existing_person_as_child'   => 'Shto person EKZISTUES si fëmijë',
+    'add_person'                     => 'Shto person',
+    'add_new_person_as_partner'      => 'Shto person TË RI si partner',
+    'add_existing_person_as_partner' => 'Shto person EKZISTUES si partner',
+    'add_person_in_team'             => 'Shto person në ekip: :team',
+    'add_photo'                      => 'Shto foto',
+    'add_relationship'               => 'Shto marrëdhënie',
+
+    'edit'              => 'Ndrysho',
+    'edit_children'     => 'Ndrysho fëmijët',
+    'edit_contact'      => 'Ndrysho kontaktin',
+    'edit_death'        => 'Ndrysho vdekjen',
+    'edit_family'       => 'Ndrysho familjen',
+    'edit_files'        => 'Ndrysho skedarët',
+    'edit_person'       => 'Ndrysho personin',
+    'edit_profile'      => 'Ndrysho profilin',
+    'edit_relationship' => 'Ndrysho marrëdhënien',
+    'edit_events'       => 'Ndrysho ngjarjet',
+
+    'delete_child'        => 'Shkëput fëmijën',
+    'delete_person'       => 'Fshi personin',
+    'delete_relationship' => 'Fshi marrëdhënien',
+
+    // Attributes
+    'id'          => 'ID',
+    'name'        => 'Emri',
+    'names'       => 'Emrat',
+    'firstname'   => 'Emri',
+    'surname'     => 'Mbiemri',
+    'birthname'   => 'Emri i lindjes',
+    'nickname'    => 'Nofka',
+    'sex'         => 'Gjinia',
+    'gender'      => 'Identiteti gjinor',
+    'father'      => 'Babai',
+    'mother'      => 'Nëna',
+    'parent'      => 'Prindi',
+    'dob'         => 'Data e lindjes',
+    'yob'         => 'Viti i lindjes',
+    'pob'         => 'Vendi i lindjes',
+    'dod'         => 'Data e vdekjes',
+    'yod'         => 'Viti i vdekjes',
+    'pod'         => 'Vendi i vdekjes',
+    'summary'     => 'Përmbledhja',
+    'email'       => 'Email',
+    'password'    => 'Fjalëkalimi',
+    'address'     => 'Adresa',
+    'street'      => 'Rruga',
+    'number'      => 'Numri',
+    'postal_code' => 'Kodi postar',
+    'city'        => 'Qyteti',
+    'province'    => 'Provinca',
+    'state'       => 'Shteti',
+    'country'     => 'Vendi',
+    'phone'       => 'Telefoni',
+
+    'cemetery'          => 'Varrezat',
+    'cemetery_location' => 'Vendndodhja e varrezave',
+
+    // files
+    'files'            => 'Skedarët',
+    'files_saved'      => '[0] Asnjë skedar i ruajtur|[1] Skedari u ruajt|[2,*] Skedarët u ruajtën',
+    'file'             => 'Skedari',
+    'file_deleted'     => 'Skedari u fshi',
+    'upload_files'     => 'Ngarko skedarë',
+    'upload_files_tip' => 'Tërhiqni dhe lëshoni skedarët e rinj këtu ...',
+
+    'upload_accept_types' => 'Të lejuar: :types',
+    'upload_max_size'     => 'Madhësia maksimale: :max KB',
+
+    // Photo
+    'avatar'                   => 'Avatari',
+    'edit_photos'              => 'Ndrysho fotot',
+    'photo_delete_failed'      => 'Fshirja e fotos dështoi',
+    'photo_deleted'            => 'Fotoja u fshi',
+    'photo'                    => 'Fotoja',
+    'photos'                   => 'Fotot',
+    'photos_saved'             => '[0] Asnjë foto e ruajtur|[1] Fotoja u ruajt|[2,*] :count Foto u ruajtën',
+    'photos_save_failed'       => 'Ruajtja e (disa) fotove dështoi',
+    'photos_existing'          => 'Fotot ekzistuese',
+    'photo_set_primary'        => 'Vendos si kryesore',
+    'photo_set_primary_failed' => 'Vendosja e fotos kryesore dështoi',
+    'photo_is_set_primary'     => 'Fotoja e re është vendosur si kryesore',
+    'upload_photos'            => 'Ngarko foto',
+    'upload_photos_tip'        => 'Tërhiqni dhe lëshoni fotot e reja këtu ...',
+
+    // Messages
+    'yod_not_matching_dod' => 'Viti i vdekjes duhet të përputhet me datën e vdekjes (:value).',
+    'yod_before_dob'       => 'Viti i vdekjes nuk mund të jetë para datës së lindjes (:value).',
+    'yod_before_yob'       => 'Viti i vdekjes nuk mund të jetë para vitit të lindjes (:value).',
+
+    'dod_not_matching_yod' => 'Data e vdekjes duhet të përputhet me vitin e vdekjes (:value).',
+    'dod_before_dob'       => 'Data e vdekjes nuk mund të jetë para datës së lindjes (:value).',
+    'dod_before_yob'       => 'Data e vdekjes nuk mund të jetë para vitit të lindjes (:value).',
+
+    'yob_not_matching_dob' => 'Viti i lindjes duhet të përputhet me datën e lindjes (:value).',
+    'yob_after_dod'        => 'Viti i lindjes nuk mund të jetë pas datës së vdekjes (:value).',
+    'yob_after_yod'        => 'Viti i lindjes nuk mund të jetë pas vitit të vdekjes (:value).',
+
+    'dob_not_matching_yob' => 'Data e lindjes duhet të përputhet me vitin e lindjes (:value).',
+    'dob_after_dod'        => 'Data e lindjes nuk mund të jetë pas datës së vdekjes (:value).',
+    'dob_after_yod'        => 'Data e lindjes nuk mund të jetë pas vitit të vdekjes (:value).',
+
+    'not_found' => 'Personi nuk u gjet',
+    'use_tab'   => 'Përdorni skedën',
+
+    'existing_person_linked_as_father'  => 'Personi ekzistues u lidhë si baba.',
+    'new_person_linked_as_father'       => 'Personi i ri u lidhë si baba.',
+    'existing_person_linked_as_mother'  => 'Personi ekzistues u lidhë si nënë.',
+    'new_person_linked_as_mother'       => 'Personi i ri u lidhë si nënë.',
+    'existing_person_linked_as_child'   => 'Personi ekzistues u lidhë si fëmijë.',
+    'new_person_linked_as_child'        => 'Personi i ri u lidhë si fëmijë.',
+    'existing_person_linked_as_partner' => 'Personi ekzistues u lidhë si partner.',
+    'new_person_linked_as_parther'      => 'Personi i ri u lidhë si partner.',
+
+    'family_caution_1' => 'Babai dhe Nëna mund të përdoren vetëm për prindërit biologjikë dhe prandaj duhet të jenë të gjinive të kundërta.',
+    'family_caution_2' => 'Prindërit mund të jenë prindërit biologjikë, por mund të përdoren edhe për prindër jo-biologjikë (homoseksualë ose adoptues). Në rastin e fundit, thjesht lini Babain dhe Nënën bosh.',
+
+    'parents_id_exclusive' => 'Prindërit janë ekskluzivë. Nëse vendosni Prindërit, nuk mund të vendosni Babain ose Nënën.',
+];

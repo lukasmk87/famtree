@@ -1,0 +1,102 @@
+<?php
+
+declare(strict_types=1);
+
+return [
+    'all_teams'     => 'Wszystkie zespoły',
+    'cancel'        => 'Anuluj',
+    'couples'       => 'Pary',
+    'create'        => 'Utwórz zespół',
+    'delete'        => 'Usuń zespół',
+    'description'   => 'Opis',
+    'id'            => 'ID',
+    'manage'        => 'Zarządzaj zespołem',
+    'name'          => 'Nazwa',
+    'owner'         => 'Właściciel',
+    'persons'       => 'Osoby',
+    'settings'      => 'Ustawienia zespołu',
+    'switch'        => 'Przełącz zespół',
+    'team'          => 'Zespół',
+    'team_personal' => 'Osobisty zespół',
+    'teams'         => 'Zespoły',
+    'users'         => 'Użytkownicy',
+
+    'team_overview'                   => 'Przegląd zespołu',
+    'click_to_view_members'           => 'Kliknij, aby zobaczyć wszystkich członków zespołu',
+    'click_to_view_persons'           => 'Kliknij, aby zobaczyć wszystkich członków rodziny',
+    'click_to_view_couples'           => 'Kliknij, aby zobaczyć wszystkie relacje',
+    'no_results_found'                => 'Nie znaleziono wyników',
+    'try_adjusting_your_search_terms' => 'Spróbuj zmienić terminy wyszukiwania',
+    'showing'                         => 'Pokazuję',
+    'of'                              => 'z',
+    'reset_filter'                    => 'Resetuj filtr',
+    'filtered_by'                     => 'Filtrowane według',
+
+    // Messages
+    'team_details'    => 'Szczegóły zespołu',
+    'team_create_new' => 'Utwórz nowy zespół, aby współpracować z innymi.',
+
+    'team_name'               => 'Nazwa zespołu',
+    'team_information'        => 'Nazwa zespołu i informacje o właścicielu.',
+    'team_add_member'         => 'Dodaj członka zespołu',
+    'team_add_member_message' => 'Dodaj nowego członka zespołu, umożliwiając mu współpracę z Tobą.',
+    'team_provide_email'      => 'Podaj adres e-mail nowego użytkownika, którego chcesz dodać do tego zespołu.',
+    'team_provide_role'       => 'Następnie wybierz rolę dla nowego użytkownika.',
+    'email'                   => 'E-mail',
+    'role'                    => 'Rola',
+
+    'team_pending'         => 'Oczekujące zaproszenia do zespołu',
+    'team_pending_message' => 'Te osoby zostały zaproszone do Twojego zespołu i otrzymały e-mail z zaproszeniem. Mogą dołączyć do zespołu, akceptując zaproszenie e-mailowe.',
+
+    'change_role'          => 'Zmień rolę',
+    'team_members'         => 'Członkowie zespołu',
+    'team_members_message' => 'Wszystkie osoby, które są częścią tego zespołu.',
+    'manage_role'          => 'Zarządzaj rolą',
+    'leave'                => 'Opuść',
+    'leave_team'           => 'Opuść zespół',
+    'leave_team_sure'      => 'Czy na pewno chcesz opuścić ten zespół?',
+    'remove'               => 'Usuń',
+    'remove_member'        => 'Usuń członka zespołu',
+    'remove_member_sure'   => 'Czy na pewno chcesz usunąć tę osobę z zespołu?',
+    'send_email'           => 'Wyślij e-mail',
+
+    'user_not_found'       => 'Nie mogliśmy znaleźć zarejestrowanego użytkownika z tym adresem e-mail.',
+    'user_already_in_team' => 'Ten użytkownik już należy do zespołu.',
+    'user_already_invited' => 'Ten użytkownik został już zaproszony do zespołu.',
+    'user_not_leave'       => 'Nie możesz opuścić zespołu, który utworzyłeś.',
+
+    'delete_team_message' => 'Trwale usuń ten zespół.',
+    'delete_team_text'    => 'Po usunięciu zespołu wszystkie jego zasoby i dane zostaną trwale usunięte. Przed usunięciem tego zespołu pobierz wszelkie dane lub informacje dotyczące tego zespołu, które chcesz zachować.',
+    'delete_team_sure'    => 'Czy na pewno chcesz usunąć ten zespół? Po usunięciu zespołu wszystkie jego zasoby i dane zostaną trwale usunięte.',
+    'can_not_delete'      => 'Ten zespół nie może zostać usunięty, ponieważ zawiera prawidłowe dane.',
+
+    'been_invited'               => 'Zostałeś zaproszony do zespołu :team!',
+    'no_account'                 => 'Jeśli nie masz konta, możesz je utworzyć, klikając poniższy przycisk. Po utworzeniu konta możesz kliknąć przycisk akceptacji zaproszenia w tym e-mailu, aby zaakceptować zaproszenie do zespołu:',
+    'create_account'             => 'Utwórz konto',
+    'may_accept_already_account' => 'Jeśli masz już konto, możesz zaakceptować to zaproszenie, klikając poniższy przycisk:',
+    'may_accept'                 => 'Możesz zaakceptować to zaproszenie, klikając poniższy przycisk:',
+    'accept_invitation'          => 'Zaakceptuj zaproszenie',
+    'discard'                    => 'Jeśli nie spodziewałeś się otrzymać zaproszenia do tego zespołu, możesz zignorować ten e-mail.',
+
+    'transfer'           => 'Przenieś',
+    'transfer_ownership' => 'Przenieś własność',
+    'transfer_message'   => 'Przenieś własność tego zespołu na innego członka zespołu.',
+    'select_new_owner'   => 'Wybierz istniejącego członka zespołu jako nowego właściciela zespołu.',
+    'new_owner'          => 'Nowy właściciel',
+    'transferred_to'     => 'Własność przeniesiona na',
+    'can_not_transfer'   => 'Własność zespołu może zostać przeniesiona tylko wtedy, gdy są inni członkowie zespołu oprócz właściciela zespołu.',
+
+    'transferred'       => 'Własność zespołu przeniesiona',
+    'hello'             => 'Witaj',
+    'you_are_new_owner' => 'Zostałeś nowym właścicielem zespołu: ',
+    'view_team'         => 'Zobacz zespół',
+    'thank_you'         => 'Dziękujemy za bycie częścią naszej platformy!',
+
+    'member'     => 'Członek',
+    'membership' => 'Członkostwo',
+
+    'personal_team_caution' => 'Uwaga',
+    'personal_team_avoid'   => 'Unikaj używania swojego osobistego zespołu do tworzenia drzew genealogicznych, ponieważ własność osobistych zespołów nie może zostać przeniesiona na innego członka.',
+    'personal_team_instead' => 'Zamiast tego wybierz zespół, którego już jesteś częścią, lub utwórz nowy specjalnie do zarządzania i udostępniania drzew genealogicznych innym.',
+    'personal_team_action'  => 'Aby utworzyć nowy zespół lub przełączyć się na istniejący, użyj menu rozwijanego w prawym górnym rogu.',
+];
